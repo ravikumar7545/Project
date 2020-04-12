@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    margin: 30px 10px 50px 10px;
+    text-align: center;
+    color: #40407a;
+}
+#header a{
+    padding: 27px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+#header a:hover{
+    color:#2c2c54;
+    transition-duration: 500ms;
+}
+img{
+    width:1000px;
+    height: 290px;
+    position: absolute;
+    top: 57px;
+    left:264px;
+}
+input{
+    border: 2px solid rgb(81, 11, 146);
+    border-radius: 5px;
+    padding-left:10px;
+    font-size: 17px;
+    color: #57606f;
+    text-transform: uppercase;
+    font-style: bold;
+    outline: none;
+}
+#train-search{
+    margin: 20px;
+    width:240px;
+    height: 500px;
+    border: 2px solid rgb(81, 11, 146);
+    border-radius: 10px;
+}
+.search-box{
+    width:210px;
+    height: 30px;
+    margin: 10px;;
+}
+.value{
+    width: 120px;
+    height: 40px;
+    margin-top: 25px;
+    position: relative;
+    left: 58px;
+    font-size: 12px;
+    border: 2px solid #192a56;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+}
+.value:active,.value:hover{
+    border: #130f40;
+    background: #130f40;
+    color: white;
+    box-shadow: none;
+    width: 140px;
+    left: 48px;
+    font-size: 14px;
+    overflow: hidden;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+#coaches{
+    width:210px;
+    height: 30px;
+    margin: 10px;;
+    border: 2px solid rgb(81, 11, 146);
+    border-radius: 5px;
+    padding-left:10px;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-style: bold;
+}
+#header{
+    position: absolute;
+    left:264px;
+    top: 21px;
+    width:1000px;
+    height: 35px;
+    background: url('Petrol.jpg');
+    border: 1px solid #40407a;
+    border-radius: 10px 10px 0px 0px;
+}
+#tourist{
+    position: absolute;
+    left: 360px;
+    top: 345px;
+    width: 200px;
+    height: 200px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 2px;
+}
+#holiday{
+    position: absolute;
+    left: 690px;
+    top: 345px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 2px;
+}
+
+#international{
+    position: absolute;
+    left: 1010px;
+    top: 345px;
+    width: 250px;
+    height: 200px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 2px;
+}
+
+#tourist p,#holiday p,#international p{
+    margin: 5px;
+    color:#2c2c54 ;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#tourist a,#holiday a,#international a{
+        color: black;
+        margin: 12px;
+        padding: 20px;
+        font-size: 15px;
+        color:red;
+}
